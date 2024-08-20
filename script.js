@@ -21,5 +21,18 @@ const nav_content = (
     </div>
 )
 
+function ReasonsShow(){
+    return (
+        <nav>
+        <h1>Why I am Exicted learning React</h1>
+        <ol>
+            <li>It's new for me</li>
+            <li>I love learning new things</li>
+            <li>It will boost my confidence</li>
+        </ol>
+        </nav>
+    )
+}
 ReactDOM.render(navbar,document.getElementById("header"));
-ReactDom.render(nav_content,document.getElementById("nav_content"));
+ReactDOM.render(nav_content,document.getElementById("nav_content"));
+ReactDOM.render(<ReasonsShow/>,document.getElementById("reasons"));
