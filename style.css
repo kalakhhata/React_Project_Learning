@@ -1,0 +1,55 @@
+header {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); /* Only adds shadow at the bottom */
+    padding: 10px 0;
+    background-color: #ffffff; /* Optional: Set background color if needed */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+.logo {
+    height: 50px; /* Adjust logo size as needed */
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-items li {
+    cursor: pointer;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Center-align the text */
+    padding: 20px 0; /* Add padding for spacing */
+    font-size: 14px; /* Set a smaller font size */
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.2); /* Add shadow at the top */
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+footer small {
+    display: block; /* Ensures the text takes its own line */
+    margin: 0; /* Removes any default margin */
+}
+
